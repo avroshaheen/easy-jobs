@@ -1,3 +1,4 @@
+import { FaMapMarkerAlt } from "react-icons/fa";
 const JobListing = ({ job }) => {
   return (
     <div className="bg-white rounded-xl shadow-md relative">
@@ -15,7 +16,7 @@ const JobListing = ({ job }) => {
 
         <div className="flex flex-col lg:flex-row justify-between mb-4">
           <div className="text-orange-700 mb-3">
-            <i className="fa-solid fa-location-dot text-lg"></i>
+            {FaMapMarkerAlt}
             {job.location}
           </div>
           <a
