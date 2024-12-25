@@ -7,7 +7,14 @@ const JobListings = ({ isHome = false }) => {
   const [loading, setLoading] = useState(true);
 
   useEffect(() => {
-    const apiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs";
+    const apiUrl =
+      process.env.NODE_ENV === "development"
+        ? isHome
+          ? "/api/jobs?_limit=3"
+          : "/api/jobs" // Local API during development
+        : isHome
+        ? "/jobs.json?_limit=3"
+        : "/jobs.json"; // Static JSON file in production (Vercel)
     const fetchJobs = async () => {
       try {
         const res = await fetch(apiUrl);
