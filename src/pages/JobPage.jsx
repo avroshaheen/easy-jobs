@@ -2,39 +2,9 @@ import { useParams, useLoaderData } from "react-router-dom";
 import { Link } from "react-router-dom";
 import { FaArrowLeft, FaMapMarkerAlt } from "react-icons/fa";
 
-// jobLoader function for fetching job data based on ID
-const jobLoader = async ({ params }) => {
-  // Fetch job data from the local API in development or static JSON file in production (Vercel)
-  const apiUrl =
-    process.env.NODE_ENV === "development"
-      ? `/api/jobs/${params.id}` // Local API
-      : `/jobs.json`; // Static jobs.json file for production
-
-  try {
-    const res = await fetch(apiUrl);
-    const data = await res.json();
-
-    if (process.env.NODE_ENV === "production") {
-      // In production, filter the jobs.json data by ID
-      return data.find((job) => job.id === params.id);
-    }
-
-    return data; // Return the data for local API case
-  } catch (error) {
-    console.error("Error fetching job:", error);
-    return null; // Return null if there's an error fetching the job
-  }
-};
-
-// Main JobPage component
 const JobPage = () => {
   const { id } = useParams();
-  const job = useLoaderData(); // jobLoader provides the job data
-
-  if (!job) {
-    return <div>Job not found</div>; // Handle case when job data is not found
-  }
-
+  const job = useLoaderData();
   return (
     <>
       <section>
@@ -120,6 +90,11 @@ const JobPage = () => {
       </section>
     </>
   );
+};
+const jobLoader = async ({ params }) => {
+  const res = await fetch(`/api/jobs/${params.id}`);
+  const data = await res.json();
+  return data;
 };
 
 export { JobPage as default, jobLoader };
