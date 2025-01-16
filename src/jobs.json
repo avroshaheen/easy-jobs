@@ -1,53 +1,143 @@
 {
   "jobs": [
     {
-      "id": "2",
-      "title": "Front-End Engineer (React & Redux)",
+      "id": "1",
+      "title": "UI/UX Designer",
       "type": "Full-Time",
-      "location": "Bangalore, India",
-      "description": "Join our Bangalore team as a Front-End Engineer. You will work with React and Redux to build responsive, scalable web applications that meet the needs of our clients.",
-      "salary": "INR 900,000 - INR 1,100,000",
+      "location": "Dhaka, Bangladesh",
+      "description": "We are looking for a creative UI/UX Designer to join our team. You will design intuitive and user-friendly interfaces, collaborating with developers to create the best possible user experience.",
+      "salary": "BDT 600,000 - BDT 800,000",
       "company": {
-        "contactEmail": "jobs@pixelcrafttechnologies.com",
-        "contactPhone": "+91-80-23456789"
+        "name": "Design Studio BD",
+        "description": "Design Studio BD specializes in UI/UX design and digital solutions for businesses across various industries.",
+        "contactEmail": "careers@designstudiobd.com",
+        "contactPhone": "+880-2-12345678"
+      }
+    },
+    {
+      "id": "2",
+      "title": "React.js Developer",
+      "type": "Full-Time",
+      "location": "Chittagong, Bangladesh",
+      "description": "We are hiring a React.js Developer to join our fast-paced team. You will work on building scalable, high-performance web applications using React.js.",
+      "salary": "BDT 700,000 - BDT 1,000,000",
+      "company": {
+        "name": "Tech Innovations BD",
+        "description": "Tech Innovations BD is a leading IT company specializing in custom software development and web applications.",
+        "contactEmail": "jobs@techinnovationsbd.com",
+        "contactPhone": "+880-31-23456789"
       }
     },
     {
       "id": "3",
-      "title": "React.js Developer",
+      "title": "Full Stack Developer (React & Node.js)",
       "type": "Full-Time",
-      "location": "Kolkata, India",
-      "description": "We are hiring a React.js Developer for our Kolkata team. Your role will involve building high-performance applications using React.js and modern JavaScript frameworks.",
-      "salary": "INR 700,000 - INR 900,000",
+      "location": "Dhaka, Bangladesh",
+      "description": "Join our development team as a Full Stack Developer. You will work with React for the front-end and Node.js for the back-end to create full-stack web applications.",
+      "salary": "BDT 900,000 - BDT 1,200,000",
       "company": {
-        "contactEmail": "careers@innovatewebsolutions.in",
-        "contactPhone": "+91-33-87654321"
+        "name": "CodeCrafters BD",
+        "description": "CodeCrafters BD is a software development company focused on building custom web applications for businesses of all sizes.",
+        "contactEmail": "careers@codecraftersbd.com",
+        "contactPhone": "+880-2-98765432"
+      }
+    },
+    {
+      "id": "4",
+      "title": "Graphic Designer",
+      "type": "Full-Time",
+      "location": "Dhaka, Bangladesh",
+      "description": "We are looking for a talented Graphic Designer to work on creating visual content for web and print media. Expertise in Adobe Creative Suite is required.",
+      "salary": "BDT 500,000 - BDT 700,000",
+      "company": {
+        "name": "Creative Solutions BD",
+        "description": "Creative Solutions BD is a digital agency that specializes in branding, graphic design, and marketing solutions.",
+        "contactEmail": "hr@creativesolutionsbd.com",
+        "contactPhone": "+880-2-87654321"
       }
     },
     {
       "id": "5",
-      "title": "Full Stack React Developer",
+      "title": "Android Developer",
       "type": "Full-Time",
-      "description": "We are looking for a Full Stack React Developer to work on both front-end and back-end web development. You will use React, Node.js, and MongoDB to build innovative web solutions.",
-      "location": "Mumbai, India",
-      "salary": "INR 1,200,000 - INR 1,500,000",
+      "location": "Rajshahi, Bangladesh",
+      "description": "We are hiring an Android Developer to build mobile applications for Android devices. Experience with Java/Kotlin is required.",
+      "salary": "BDT 600,000 - BDT 900,000",
       "company": {
-        "name": "EvolvTech Solutions",
-        "description": "EvolvTech Solutions is a leading technology company specializing in web-based solutions for industries such as finance, healthcare, and e-commerce.",
-        "contactEmail": "careers@evolvtechsolutions.com",
-        "contactPhone": "+91-22-12345678"
+        "name": "Mobile Apps BD",
+        "description": "Mobile Apps BD is a mobile development company focused on building Android and iOS applications for local and international clients.",
+        "contactEmail": "careers@mobileappsbd.com",
+        "contactPhone": "+880-721-234567"
       }
     },
     {
       "id": "6",
-      "title": "XReact Native Developer",
+      "title": "Backend Developer (Node.js)",
+      "type": "Full-Time",
+      "location": "Sylhet, Bangladesh",
+      "description": "We are looking for a Backend Developer with expertise in Node.js. You will be responsible for building scalable and secure back-end services.",
+      "salary": "BDT 700,000 - BDT 1,000,000",
+      "company": {
+        "name": "Backend Solutions BD",
+        "description": "Backend Solutions BD provides enterprise-level back-end solutions for web and mobile applications.",
+        "contactEmail": "jobs@backendsolutionsbd.com",
+        "contactPhone": "+880-821-123456"
+      }
+    },
+    {
+      "id": "7",
+      "title": "Digital Marketing Specialist",
+      "type": "Full-Time",
+      "location": "Khulna, Bangladesh",
+      "description": "We are looking for a Digital Marketing Specialist to help us grow our brand's online presence. Your role will involve SEO, social media, and online advertising.",
+      "salary": "BDT 500,000 - BDT 700,000",
+      "company": {
+        "name": "Digital Hub BD",
+        "description": "Digital Hub BD is a digital marketing agency providing services to improve online presence for brands across industries.",
+        "contactEmail": "careers@digitalhubbd.com",
+        "contactPhone": "+880-41-234567"
+      }
+    },
+    {
+      "id": "8",
+      "title": "Product Designer",
+      "type": "Full-Time",
+      "location": "Barisal, Bangladesh",
+      "description": "As a Product Designer, you will be responsible for designing user-centric products and collaborating with cross-functional teams to create innovative solutions.",
+      "salary": "BDT 800,000 - BDT 1,000,000",
+      "company": {
+        "name": "DesignPro BD",
+        "description": "DesignPro BD is a leading design firm specializing in product design, UX/UI design, and branding services for global clients.",
+        "contactEmail": "hr@designprobd.com",
+        "contactPhone": "+880-41-987654"
+      }
+    },
+    {
+      "id": "9",
+      "title": "Junior Front-End Developer",
+      "type": "Full-Time",
+      "location": "Jessore, Bangladesh",
+      "description": "We are looking for a Junior Front-End Developer to join our growing team. You will work with HTML, CSS, and JavaScript to build user-friendly web interfaces.",
+      "salary": "BDT 400,000 - BDT 600,000",
+      "company": {
+        "name": "Techies BD",
+        "description": "Techies BD is a software development company that focuses on web and mobile applications for local and international clients.",
+        "contactEmail": "careers@techiesbd.com",
+        "contactPhone": "+880-42-2345678"
+      }
+    },
+    {
+      "id": "10",
+      "title": "iOS Developer",
       "type": "Full-Time",
       "location": "Chittagong, Bangladesh",
-      "description": "Join Mobile Masters BD as a React Native Developer. You will develop mobile applications for both iOS and Android platforms using React Native and contribute to the mobile development lifecycle.",
-      "salary": "BDT 1,000,000 - BDT 1,300,000",
+      "description": "We are hiring an iOS Developer to build mobile applications for Apple's ecosystem. You will work on mobile applications and ensure optimal performance on iOS devices.",
+      "salary": "BDT 700,000 - BDT 1,000,000",
       "company": {
-        "contactEmail": "jobs@mobilemastersbd.com",
-        "contactPhone": "+880-31-9876543"
+        "name": "Innovative Apps BD",
+        "description": "Innovative Apps BD is a mobile application development company specializing in creating iOS and Android apps for businesses in various industries.",
+        "contactEmail": "careers@innovativeappsbd.com",
+        "contactPhone": "+880-31-98765432"
       }
     }
   ]

@@ -8,6 +8,7 @@ const JobListings = ({ isHome = false }) => {
 
   useEffect(() => {
     const apiUrl = isHome ? "/api/jobs?_limit=3" : "/api/jobs";
+    
     const fetchJobs = async () => {
       try {
         const res = await fetch(apiUrl);
@@ -20,7 +21,7 @@ const JobListings = ({ isHome = false }) => {
       }
     };
     fetchJobs();
-  }, []);
+  }, [isHome]);
 
   return (
     <section className="bg-blue-50 px-4 py-10">
